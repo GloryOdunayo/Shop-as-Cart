@@ -1,0 +1,39 @@
+#signup {
+    background-color: #D92D20;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+div.py-lg-0 {
+    background-color: white;
+}
+
+#signin {
+    background-color: white;
+    color: whitesmoke;
+    font-size:17px;
+    font-weight:500;
+    color:black
+}
+
+#signin:hover {
+    color: #D92D20;
+}
+
+#hover {
+    color:black; 
+    font-size:17px;
+    font-weight:500
+}
+#hover:hover {
+    color: #D92D20;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}

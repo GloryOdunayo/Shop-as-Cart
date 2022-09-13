@@ -1,0 +1,28 @@
+.store {
+    height: 55vh;
+    background-color: white;
+    z-index: 99;
+    position: relative;
+
+}
+.stories {
+    z-index: 99;
+}
+
+@media (max-width:770px) {
+    .store {
+        height: 70vh;
+    }
+    .scroll {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding-left: 5px;
+    }
+
+    .cardy {
+        width: 160px;
+        height: 200px;
+        margin: 0 5px 0 5px;
+    }
+}
